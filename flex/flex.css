@@ -1,0 +1,76 @@
+.parent {
+    padding: 15px;
+    background-color: aquamarine;
+    display:flex;
+    gap: 20px;
+}
+.child {
+    border: 2px;
+    background: rebeccapurple;
+    padding: 10px;
+    font-size: medium;
+    margin: 0.5px;
+    display: inline;
+}
+.Box{
+    padding: 10px;
+    background-color:orange;
+    display: flex;
+    gap: 10px;
+
+}
+.son{
+    border: 3px;
+    background:orchid;
+    padding: 5px;
+    font-size: small;
+    margin: 1px;
+    display: inline;
+
+}
+.Box-1{
+    padding: 10px;
+    background-color:orange;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.Son-1{
+    border: 3px;
+    background:orchid;
+    padding: 5px;
+    font-size: small;
+    margin: 1px;
+    display: inline;
+
+}
+.Box-2{
+    padding: 10px;
+    background-color:orange;
+    display: flex;
+    gap: 10px;
+    justify-content:"space-evenly";
+}
+.Son-2{
+     border: 3px;
+     background:orchid;
+        padding: 5px;
+        font-size: small;
+        margin: 1px;
+        display: inline;
+}
+.Box-3{
+        padding: 10px;
+        background-color:orange;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+}   
+       .Son-3{
+            border: 3px;
+            background:orchid;
+            padding: 5px;
+            font-size: small;
+            margin: 1px;
+            display: inline;
+       }
